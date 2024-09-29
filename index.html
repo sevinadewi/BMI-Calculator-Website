@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        
+
+    </header>
+
+    <main>
+        <div class="main-container">
+            
+            <div class="container-item">
+                <h1>Kalkulator BMI</h1>
+                <!--<h2>form bmi</h2>
+                <p>berat badan anda adalah</p>-->
+                
+                <section class="container-form">
+                    <form action="" id="BMIform">
+                        <div class="input-container">
+                            <label>Jenis kelamin</label><br>
+                            <input type="radio" value="Laki-laki" name="gender" id="sex-man">
+                            <label for="sex-man">Laki-laki</label>
+                            <input type="radio" value="Perempuan" name="gender" id="sex-woman">
+                            <label for="sex-woman">Perempuan</label>
+    
+                        </div>
+                        <div class="input-container">
+                            <label>Berat Badan (kg) </label><br>
+                            <input type="number" id="weight">
+                        </div>
+                        <div class="input-container">
+                            <label >Tinggi Badan (cm)</label><br>
+                            <input type="number" id="height">
+                        </div>
+                        <div class="input-container">
+                            <label>Usia (tahun) </label><br>
+                            <input type="number" id="age">
+                        </div>
+    
+                        <div class="input-container">
+                            <button type="button" id="calculate-button" onclick="calculateBMI()">Hitung bmi</button>
+                            <button type="button" id="resetButton">Reset</button>
+                        </div>
+
+                    </form>
+                    
+                    
+                </section>
+            </div>
+            <div class="container-item hidden" id="resultContainer">
+                <h2>Hasil Perhitungan BMI</h2>
+                <section class="container-result">
+                    
+                    <div id="bmiResult"></div>
+                    <div id="bmiExplanation"></div>
+                    <div id="bmiExplanation2"></div>
+                    <div id="genderResult"></div>
+            
+                    <button type="button" id="konsultasibtn">Konsultasi Dokter</button>
+                </section>
+            </div>
+        </div>
+
+       
+            
+
+        </div>
+
+    </main>
+
+    <footer></footer>
+    <script src="js/script2.js"></script>
+    
+</body>
+</html>

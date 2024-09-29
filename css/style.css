@@ -1,0 +1,138 @@
+*{
+    font-family: "Nunito Sans", sans-serif;
+    
+}
+body{
+   
+    background: rgb(148,228,233);
+background: radial-gradient(circle, rgba(148,228,233,1) 0%, rgba(148,228,233,0.34226190476190477) 100%);
+margin-bottom: 100px;
+}
+header>h1{
+    text-align: center;
+}
+
+.main-container{
+   margin: auto;
+   
+}
+
+.form,
+.result{
+    background-color: red;
+}
+
+.container-item{
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    padding: 24px;
+    
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+
+
+.container-item h1{
+    text-align: center;
+    color: #44bac2;
+}
+
+.container-item>h2{
+    text-align: center;
+    color: gray;
+}
+
+.container-result{
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+
+.input-container{
+    margin: 10px;
+}
+.container-form{
+    padding: 24px;
+    text-align: left;
+    background-color: aliceblue;
+    color: gray;
+
+}
+
+.container-form>div{
+    padding: 8px;
+}
+
+.form-item{
+    height: 24px;
+
+}
+
+button{
+    height: 32px;
+    border: 2px solid;
+    border-color: #44bac2;
+    padding-left: 24px;
+    padding-right: 24px;
+   /* background-color: rgb(230, 67, 53);*/
+    border-radius: 8px;
+    background-color: white;
+    color: #44bac2;
+}
+
+
+
+input{
+    border-radius: 5px;
+    border: 0px;
+    
+}
+
+input[type=number]{
+    width: 100%;
+
+}
+
+
+
+#calculate-button{
+    border: 10px;
+    border-color: #44bac2;
+    background-color: #44bac2;
+    color: white;
+
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+#bmiResult{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#bmiExplanation{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#bmiExplanation2{
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.container-result{
+    padding: 20px;
+}
+
+#genderResult{
+    color: gray;
+}
